@@ -1,6 +1,6 @@
 from airflow.models import BaseOperator
 from airflow.hooks.S3_hook import S3Hook
-from postgres_plugin.hooks.karmic_postgres_hook import KarmicPostgresHook
+from postgres_to_redshift_plugin.hooks.karmic_postgres_hook import KarmicPostgresHook
 
 from airflow.utils.decorators import apply_defaults
 import json
